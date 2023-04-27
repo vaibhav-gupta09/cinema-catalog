@@ -1,0 +1,13 @@
+.select-container{
+  text-align: center;
+  margin: 2rem 0rem;
+}
+
+.select-container select{
+  padding: 1rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  width: 20rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+

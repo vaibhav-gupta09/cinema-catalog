@@ -1,0 +1,44 @@
+.detail-container{
+  text-align: center;
+  color: whitesmoke;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 1rem;
+}
+.overview{
+  font-size: 1.5rem;
+  padding: 1rem 2rem 4rem;
+}
+.main-movie-img{
+  margin: 0rem auto;
+  border-radius: 1rem;
+  height: 30rem;
+  width: 60rem;
+}
+
+.movie-name{
+  padding: 1rem;
+  font-size: 3rem;
+  color: #E0E6F2;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.back-home-btn{
+  display: block;
+  padding: 1rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-decoration: none;
+    width: 16%;
+    margin-bottom: 1rem;
+    overflow: auto;
+}
+
+.back-home-btn:hover {
+  background-color: orangered;
+  color: black;
+}

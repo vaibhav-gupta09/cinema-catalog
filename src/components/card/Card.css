@@ -1,0 +1,53 @@
+.card-wrapper{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    width: 80%;
+    min-height: 380px;
+    /* max-height: 380px; */
+    padding: 5px 5px 0px 5px;
+    margin: 2rem;
+    /* background-color: #282c34; */
+    background-color: rgba(0, 0, 0, 0.921);
+    border-radius: 10px;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+}
+
+.card-wrapper:hover{
+  /* background-color: aliceblue; */
+  transform: scale(1.15);
+}
+
+.movie-title{
+  color: white;
+  padding: 1rem 0rem;
+  font-size: 1.2rem;
+  
+}
+
+.detail-btn{
+  background-color: orangered;
+  text-decoration: none;
+  color: white;
+  border-radius: 1rem;
+  font-size: 1rem;
+  transform: translateX(-50%);
+  position: absolute;
+    /* Set the position of the button to absolute */
+  bottom: 0.5rem;
+  padding: 0.5rem 1rem;
+  left:50%;
+  width: 80%;
+}
+.detail-btn:hover{
+  background-color: orange;
+}
+
+.movie-img{
+  display: block;
+  height: 250px;
+  width: 100%;
+}

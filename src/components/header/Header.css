@@ -1,0 +1,31 @@
+.header-wrapper{
+  background-color: rgba(0, 0, 0, 0.921);;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+}
+
+.main-heading{
+  margin: auto;
+  /* border: 1px solid white */
+}
+.main-heading h1{
+  font-size: 3rem;
+  color: orangered;
+  text-align: center;
+}
+
+.main-heading p{
+  color: white;
+  margin: 0.2rem 0 1.5rem;
+}
+
+.my-icon{
+  font-size: 15rem;
+  color: white;
+  margin: auto 1rem;
+  width: 5rem;
+  height: 5rem;
+  cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.crousel-container{
+  text-align: center;
+}
+
+.crousel-container h1{
+  color: orangered;
+  font-size: 3rem;
+}
+
+
+.cast-img{
+  height: 8rem;
+  width: 8rem;
+  margin: 0rem auto;
+  border-radius: 100%;
+  /* display: block; */
+}
+
+.cast-container{
+  text-align: center;
+  /* justify-content: center; */
+  padding: 1rem 0rem;
+}
+.slider{
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  background-color: #DFE6F2;
+  margin: 1rem 3rem 3rem;
+  border-radius: 10px;
+  color: black;
+}

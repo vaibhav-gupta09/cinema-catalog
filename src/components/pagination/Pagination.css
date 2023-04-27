@@ -1,0 +1,28 @@
+.page-update-btn{
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin: 2rem;
+  cursor: pointer;
+  font-size: large;
+}
+.page-update-btn:hover{
+  background-color: orangered;
+  color: black;
+}
+.pagination-container{
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: center;
+}
+.pagination-container p{
+  color: white;
+  margin: 2rem;
+  font-size: 2rem;
+}
+
+.disabled-btn{
+  display: none;
+}
