@@ -12,7 +12,6 @@ const AutoMovingCrousel = () => {
   const {cast, crew} = useSelector((state)=>state.reducer);
   const slidesToShow = Math.min(cast.length, crew.length, 8);
   const settings = {
-    // dots: true,
     infinite: true,
     speed: 500,
     autoplay: true,

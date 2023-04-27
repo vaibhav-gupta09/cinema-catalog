@@ -8,7 +8,6 @@ const Card = ({movieData}) => {
     <div className="card-wrapper">
       <img
         className="movie-img"
-        // style={{ display: "block", height: "200px", width: "100%" }}
         src={
           movieData.poster_path
             ? `https://image.tmdb.org/t/p/w500${movieData.poster_path}`

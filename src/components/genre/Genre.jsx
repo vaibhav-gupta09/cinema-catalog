@@ -8,15 +8,6 @@ const Genre = (props) => {
  
   const dispatch = useDispatch();
   const {selectedGenre, movies, page} = useSelector((state)=>state.reducer);
-  // const [movies, setMovies] = useState([]);
-  const fetchMovies = async () => {
-    // const { data } = await axios.get(
-    //   `https://api.themoviedb.org/3/discover/movie?api_key=1cf50e6248dc270629e802686245c2c8&sort_by=popularity.desc&with_genres=${props.genreId}&with_original_language=hi`
-    // );
-    
-    // setMovies(data.results)
-    
-  }
 
   useEffect(() => {
     dispatch(setMovieList(selectedGenre, page));

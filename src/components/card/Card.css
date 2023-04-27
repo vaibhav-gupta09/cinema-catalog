@@ -1,15 +1,11 @@
 .card-wrapper{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
     text-align: center;
     width: 80%;
     min-height: 380px;
-    /* max-height: 380px; */
     padding: 5px 5px 0px 5px;
     margin: 2rem;
-    /* background-color: #282c34; */
     background-color: rgba(0, 0, 0, 0.921);
     border-radius: 10px;
     position: relative;
@@ -17,7 +13,6 @@
 }
 
 .card-wrapper:hover{
-  /* background-color: aliceblue; */
   transform: scale(1.15);
 }
 
@@ -36,7 +31,6 @@
   font-size: 1rem;
   transform: translateX(-50%);
   position: absolute;
-    /* Set the position of the button to absolute */
   bottom: 0.5rem;
   padding: 0.5rem 1rem;
   left:50%;

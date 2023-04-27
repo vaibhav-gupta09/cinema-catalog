@@ -38,7 +38,6 @@ export const movieReducer = createReducer(initialState, {
     state.page = 1;
   },
   setToInitialState: (state)=>{
-  // state.genreList = [];
   state.selectedGenre=''; 
   state.movies=[]; 
   state.page= 1; 

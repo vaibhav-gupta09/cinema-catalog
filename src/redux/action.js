@@ -6,7 +6,6 @@ export const getGenreList = ()=> async(dispatch)=>{
       `https://api.themoviedb.org/3/genre/movie/list?api_key=${process.env.REACT_APP_API_KEY}&language=en-US`
     );
     dispatch({type:"getGenreListSuccess", payload:data.genres});
-    // dispatch({type:"setNumOfPagesSuccess", payload:data.total_pages});
 }
 
 export const setSelectedGenre = (genre)=> async(dispatch)=>{
